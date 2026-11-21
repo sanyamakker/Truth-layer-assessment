@@ -1,0 +1,5 @@
+streamlit>=1.38,<2
+pypdf>=5.0,<7
+ddgs>=9.0,<10
+requests>=2.32,<3
+fonttools>=4.0,<5
