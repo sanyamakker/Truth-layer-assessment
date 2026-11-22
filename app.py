@@ -271,6 +271,17 @@ section[data-testid="stSidebar"] * { color: #eef3eb !important; }
 .claim { font-size:18px; line-height:1.5; color:#172327; }
 div[data-testid="stFileUploader"] { border: 1px dashed #92a79b; background: #fff; }
 .footnote { font-size:12px; color:#69766f; }
+div[data-testid="stMetricValue"],
+div[data-testid="stMetricValue"] * {
+    color: #102d2d !important;
+    opacity: 1 !important;
+}
+
+div[data-testid="stMetricLabel"],
+div[data-testid="stMetricLabel"] * {
+    color: #45534d !important;
+    opacity: 1 !important;
+}
 </style>
 <div class="hero"><div class="eyebrow">Evidence review · PDF to fact-check</div><h1>Truth Layer</h1><p>Find the numbers that need a second look. Extract claims from a PDF, check them against live web sources, and review the evidence behind each verdict.</p></div>
 """, unsafe_allow_html=True)
