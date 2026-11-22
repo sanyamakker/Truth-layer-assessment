@@ -311,6 +311,12 @@ div[data-testid="stMetricLabel"] * {
     color: #ffffff !important;
     opacity: 1 !important;
 }
+[data-testid="stFileUploaderDropzoneInstructions"],
+[data-testid="stFileUploaderDropzoneInstructions"] *,
+[data-testid="stFileUploader"] small {
+    color: #45534d !important;
+    opacity: 1 !important;
+}
 </style>
 <div class="hero"><div class="eyebrow">Evidence review · PDF to fact-check</div><h1>Truth Layer</h1><p>Find the numbers that need a second look. Extract claims from a PDF, check them against live web sources, and review the evidence behind each verdict.</p></div>
 """, unsafe_allow_html=True)
