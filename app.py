@@ -294,6 +294,23 @@ div[data-testid="stMetricLabel"] * {
     color: #172327 !important;
     background-color: #ffffff !important;
 }
+[data-testid="stFileUploader"] [data-testid="stFileUploaderDropzone"] {
+    background-color: #ffffff !important;
+}
+
+[data-testid="stFileUploader"] label,
+[data-testid="stFileUploader"] label * {
+    color: #172327 !important;
+    opacity: 1 !important;
+}
+
+[data-testid="stFileUploader"] button,
+[data-testid="stFileUploader"] button * {
+    background-color: #102d2d !important;
+    border-color: #102d2d !important;
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
 </style>
 <div class="hero"><div class="eyebrow">Evidence review · PDF to fact-check</div><h1>Truth Layer</h1><p>Find the numbers that need a second look. Extract claims from a PDF, check them against live web sources, and review the evidence behind each verdict.</p></div>
 """, unsafe_allow_html=True)
